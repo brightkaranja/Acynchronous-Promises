@@ -120,6 +120,11 @@ loadPage();
 
 //Question five
 //Pseudocode
+//Create a function called fetchPrice that takes symbol as an argument
+//Return a new promise with a timeout of 2000 miliseconds
+//The promise will resolve with a message indicating the price retrieved
+//Create another function that fetches stock prices for multiple symbols sequentially using async/await.
+// Logs the retrieval message for each stock in order.
 function fetchPrice(symbol) {
   return new Promise(resolve => {
     setTimeout(() => {
